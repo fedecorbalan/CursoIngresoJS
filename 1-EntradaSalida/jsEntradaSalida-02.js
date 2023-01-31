@@ -7,7 +7,7 @@ function mostrar()
 	// asignación
 	// nombre ="yanina"; 
 
-	nombre=prompt("Ingrese su nombre");
+	nombre=prompt("Ingrese su nombeee");
 
 	alert(nombre);
 }
