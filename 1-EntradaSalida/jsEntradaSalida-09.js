@@ -8,7 +8,8 @@ function mostrarAumento()
 	let sueldo;
 	let aumentoSueldo;
 	let nuevoSueldo;
- 
+	const AUMENTO=0.1
+	
 	sueldo = document.getElementById("txtIdSueldo").value;
 	
 
@@ -17,7 +18,7 @@ function mostrarAumento()
 
 // el calculo de porcentaje de un valor lo consigo multiplicando el num por el porcentaje y luego lo divido por 100
 
-	aumentoSueldo= sueldo * 10 / 100;
+	aumentoSueldo= sueldo * AUMENTO;
 	nuevoSueldo= sueldo + aumentoSueldo;
 
 	document.getElementById("txtIdResultado").value=nuevoSueldo;
