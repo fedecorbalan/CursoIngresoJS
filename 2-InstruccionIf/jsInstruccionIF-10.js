@@ -1,6 +1,19 @@
+// Federico Corbalán-Div X
 function mostrar()
 {
-	//Genero el número RANDOM entre 1 y 10 
-	alert("ok");
+	let numRandom
+	
+	numRandom = Math.ceil(Math.random()*10)
 
-}//FIN DE LA FUNCIÓN
+	if (numRandom <4 ){
+		alert(numRandom+"\nVamos, la proxima se puede")
+	}
+	else{
+		if (numRandom < 8){
+			alert(numRandom+"\nAPROBÓ")
+		} 
+		else{
+			alert(numRandom+"\nEXCELENTE")
+		}
+	}
+}

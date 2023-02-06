@@ -1,8 +1,23 @@
+// Federico Corbalán-Div X
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad;
 
-
-
-}//FIN DE LA FUNCIÓN
+	edad = parseInt (document.getElementById ("txtIdEdad").value);
+  
+	if (edad >=18)
+	{	
+		alert ("Usted es mayor de edad");
+	  }
+	else{
+		if (edad < 13 )
+		{	
+			alert ("Usted es un niño");
+	 	}
+		else
+	  	{	
+			alert ("Usted es adolescente");
+		}
+		}
+}
+// && edad <= 17
