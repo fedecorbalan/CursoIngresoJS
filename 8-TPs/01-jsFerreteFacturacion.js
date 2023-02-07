@@ -8,7 +8,7 @@ function Sumar ()
 	let numUno;
     let numDos;
     let numTres;
-    let resultado
+    let resultado;
 
     numUno= parseInt(document.getElementById("txtIdPrecioUno").value);
     numDos= parseInt(document.getElementById("txtIdPrecioDos").value);
@@ -17,25 +17,22 @@ function Sumar ()
    resultado= numUno+numDos+numTres
    
     alert("La suma es "+ resultado)
-    
-
-
-    
 }
+
 function Promedio () 
 {
     let numUno;
     let numDos;
     let numTres;
-    let promedio
+    let promedio;
 
     numUno= parseFloat(document.getElementById("txtIdPrecioUno").value);
     numDos= parseFloat(document.getElementById("txtIdPrecioDos").value);
     numTres= parseFloat(document.getElementById("txtIdPrecioTres").value);
 
-    promedio= ((numUno+numDos+numTres)/3).toFixed(2)
+    promedio= ((numUno+numDos+numTres)/3).toFixed(2);
 
-    alert("El promedio es "+promedio)
+    alert("El promedio es "+promedio);
 
 
 }
@@ -46,16 +43,16 @@ function PrecioFinal ()
     let numTres;
     let resultado;
     let suma;
-    let ivaTotal
-    const IVA= 0.21
+    let ivaTotal;
+    const IVA= 0.21;
 
     numUno= parseFloat(document.getElementById("txtIdPrecioUno").value);
     numDos= parseFloat(document.getElementById("txtIdPrecioDos").value);
     numTres= parseFloat(document.getElementById("txtIdPrecioTres").value);
 
-   suma= (numUno+numDos+numTres)
-   ivaTotal= suma* IVA
-   resultado= (suma+ivaTotal).toFixed(2)
+   suma= (numUno+numDos+numTres);
+   ivaTotal= suma* IVA;
+   resultado= (suma+ivaTotal).toFixed(2);
    
-    alert("El precio final es "+ resultado)
+    alert("El precio final es "+ resultado);
 }

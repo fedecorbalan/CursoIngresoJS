@@ -49,7 +49,6 @@ function Materiales ()
     let area 
     let bolsasCal;
     let bolsasCemento;
-    let total
     let largoTerreno;
     let anchoTerreno;
     

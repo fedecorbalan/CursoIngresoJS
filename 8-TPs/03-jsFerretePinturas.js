@@ -12,7 +12,7 @@ function FahrenheitCentigrados ()
     tempF = parseFloat(document.getElementById("txtIdTemperatura").value).toFixed(1);
     tempC = ((tempF - 32)/1.8).toFixed(1);
 
-    alert(tempF + " Fahrenheit son "+ tempC + " Centigrados")
+    alert(tempF + " Fahrenheit son "+ tempC + " grados Celsius")
 }
 
 function CentigradosFahrenheit () 
@@ -23,5 +23,5 @@ function CentigradosFahrenheit ()
     tempC = parseFloat(document.getElementById("txtIdTemperatura").value).toFixed(1);
     tempF = ((tempC * 1.8)+ 32).toFixed(1);
 
-    alert(tempC + " centígrados son "+ tempF + " Fahrenheit")
+    alert(tempC + " grados Celsius son "+ tempF + " Fahrenheit")
 }

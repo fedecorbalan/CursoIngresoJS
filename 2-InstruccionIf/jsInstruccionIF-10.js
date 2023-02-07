@@ -9,7 +9,7 @@ function mostrar()
 		alert(numRandom+"\nVamos, la proxima se puede")
 	}
 	else{
-		if (numRandom < 8){
+		if (numRandom <= 8){
 			alert(numRandom+"\nAPROBÓ")
 		} 
 		else{
